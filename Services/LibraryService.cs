@@ -5,8 +5,11 @@ namespace CodeLibrary.Services
 {
     class LibraryService
     {
-        private List<Book> book = new List<Book>();
+        private List<Book> Books { get; set; }
+        public LibraryService()
+        {
 
+        }
 
     }
 }
